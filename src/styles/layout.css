@@ -1,0 +1,108 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 20px 20px;
+ 
+
+ 
+
+  }
+
+  .btn-add{
+   
+    border: 0;
+    border-color: aliceblue;
+    padding: 5;
+    font-size: 18px;
+    
+    box-shadow: grey 1px 1px 1px 1px;
+  }
+  .cart{
+    font-size: large;
+    line-height: 0;
+    display: flex;
+   
+    justify-content: space-between;
+    margin-right: 25px;
+    padding: 20px;
+
+  }
+  .cart p {
+    margin-right: 10px;
+  }
+  .cart svg {
+    margin-top: 7px;
+    font-size: larger;
+  }
+
+  
+  
+  .trigger:hover {
+    color: #1890ff;
+ 
+  }
+  
+  .logo {
+    height: 32px;
+    margin: 16px;
+   
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+  }
+  .site {
+   height: 100%;
+  }
+  .ant-layout{
+
+  }
+
+  
+  
+    .ant-layout .ant-layout-sider {
+        position: fixed;
+        min-width: 0;
+        background: #390202;
+        transition: all 0.2s;
+        min-height: 750px;
+      }
+  
+  .ant-menu-dark {
+    color: rgba(255, 255, 255, 0.65);
+    background: #290000;
+  }
+  .cart-page{
+    display: flex;
+    flex-direction: column;
+  }
+  .cart-container{
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width:700px){
+    .content {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .category-container img {
+
+     display: none;
+    }
+    .category-container  {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+     }
+  
+  
+
+ 
